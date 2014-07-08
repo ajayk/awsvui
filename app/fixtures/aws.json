@@ -1,0 +1,117 @@
+{
+  "nodes": {
+    "regionName": us-east-1,
+    "vpc": [
+      {
+        "availabilityZones": [
+          {
+            "name": "us-east-1a",
+            "subnet": [
+              {
+                "name": "subnet-fd878889",
+                "instances": [
+                  {
+                    "instanceId": "i-ade1ccfd"
+                  },
+                  {
+                    "instanceId": "i-ee60fdbe"
+                  },
+                  {
+                    "instanceId": "i-63645432"
+                  }
+                ]
+              },
+              {
+                "name": "subnet-ff87888b",
+                "instances": [
+                  {
+                    "instanceId": "i-057bd155"
+                  },
+                  {
+                    "instanceId": "i-aad8adfa"
+                  },
+                  {
+                    "instanceId": "i-1c59134c"
+                  }
+                ]
+              },
+              {
+                "name": "subnet-fa87888e",
+                "instances": [
+                  {
+                    "instanceId": "i-61bb374a"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "us-east-1b",
+            "subnet": [
+              {
+                "name": "subnet-82072fc4",
+                "instances": [
+                  {
+                    "instanceId": "i-a1bfe9f2"
+                  },
+                  {
+                    "instanceId": "i-68c89f3b"
+                  },
+                  {
+                    "instanceId": "i-96fc49c5"
+                  },
+                  {
+                    "instanceId": "i-58ad3772"
+                  },
+                  {
+                    "instanceId": "i-0984ec23"
+                  }
+                ]
+              },
+              {
+                "name": "subnet-85072fc3",
+                "instances": [
+                  {
+                    "instanceId": "i-81b2a8d1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "vpcId": "vpc-0eb5436b"
+      },
+      {
+        "availabilityZones": [
+          {
+            "name": "us-east-1d",
+            "subnet": [
+              {
+                "name": "subnet-0fe39127",
+                "instances": [
+                  {
+                    "instanceId": "i-61ebc241"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "us-east-1a",
+            "subnet": [
+              {
+                "name": "subnet-079eaf73",
+                "instances": [
+                  {
+                    "instanceId": "i-f85b7ad6"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "vpcId": "vpc-b8504dda"
+      }
+    ]
+  }
+}
